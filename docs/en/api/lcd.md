@@ -1051,9 +1051,9 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 | --- | --- |
 | x     | position of point | int16_t |
 | y     | position of point | int16_t |
-| w     | width of circle | int16_t |
-| h     | height of circle | int16_t |
-| radius | the radius of circle |
+| w     | width of rectangle | int16_t |
+| h     | height of rectangle | int16_t |
+| radius | corner radius |
 | color | color value |
 
 *If color is not given, current background color is used*
